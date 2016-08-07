@@ -25,7 +25,14 @@
 				<h2>Page 2</h2>
 		</div>
 		<div class="col-sm-3">
-			<h2>Page 3</h2>
+			<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li><a href="http://vignette4.wikia.nocookie.net/lotrminecraftmod/images/3/32/Cute-Dog-dogs-13286656-1024-768.jpg/revision/latest?cb=20150222011858">Pokemon</a></li>
+				<li class="divider"></li>
+				<li>images</li>
+				<li>Text</li>
+			</div>
 		</div>
 	</div>
 	<div class="row" id="content">
@@ -47,7 +54,21 @@
 				}
 			</code>
 		<img src="images/Siberian-Husky-Colors.jpg" alt="Siberian" class="img-circle">
-		<button type="button" class="btn btn-danger">click me</button>
+		<button type="button" class="btn btn-danger">click</button>
+
+		<form role="form">
+		<div class="form-group">
+				<label>Where do you live?</label>
+				<input class=" form-control" type="text">
+				 <label>What's your favorite animal?</label>
+				<input class=" form-control" type="number" max="1000000" min="0">
+		</div>
+		<div class="form-group">
+			<input class="form-control"type="submit">
+			
+		</div>	
+		</form>
+
 		</div>
 		<div class="col-sm-2" id="ads">
 			<p>Ads</p>
