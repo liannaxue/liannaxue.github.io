@@ -1,0 +1,32 @@
+body{
+	background:grey;
+	color:black;
+	border-style: solid; 
+		border-width: 10px;
+		border-color: pink;
+		border-radius: 6px;
+		width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-style: italic;
+	font-weight: lighter;
+	* {
+	background-color: grey;
+}
+.fat {
+	font-size: 3em;
+	font-weight: bolder;
+	color: white
+}
+
+.large {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.broad {
+	font-size: 2.5em;
+	font-weight: bolder;
+	font-style: arial;
+}
+
